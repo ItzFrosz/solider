@@ -63,6 +63,9 @@ class Soldier(pygame.sprite.Sprite):
         self.move()
         #Оновлення анімації
         self.update_animation()
+    #Бити
+    def push(self):
+        pass
     #Переміщення
     def move(self):
         dx = 0
