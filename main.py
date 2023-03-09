@@ -6,11 +6,11 @@ pygame.init()
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
 #Іконка для гри
-ICON = pygame.image.load("icon.jpg")
+ICON = pygame.image.load("Toaster.jpeg")
 #Встановлена значень для додатку
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 #Вибір назви для гри
-pygame.display.set_caption("ToasterGame")
+pygame.display.set_caption("NULLGAME")
 #Вибір іконки для гри
 pygame.display.set_icon(ICON)
 
